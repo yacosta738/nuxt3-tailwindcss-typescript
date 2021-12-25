@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "yarn dev & wait-on tcp:3000 -v",
+    "start": "yarn dev",
     "start:dev": "node .output/server/index.mjs",
     "test:ci": "cypress run"
   },
