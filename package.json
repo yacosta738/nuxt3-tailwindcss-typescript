@@ -3,8 +3,7 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "yarn dev",
-    "start:dev": "node .output/server/index.mjs",
+    "start": "yarn build && node .output/server/index.mjs",
     "test:ci": "cypress run"
   },
   "devDependencies": {
