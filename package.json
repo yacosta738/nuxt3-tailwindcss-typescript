@@ -16,7 +16,7 @@
     "postcss": "^8.3.11",
     "sass": "^1.43.4",
     "start-server-and-test": "^1.14.0",
-    "tailwindcss": "^3.0.0-alpha.1",
+    "tailwindcss": "^3.0.8",
     "typescript": "^4.5.4"
   }
 }
