@@ -22,7 +22,7 @@ jobs:
 
       ## Cache
       - name: Cache yarn cache
-        uses: actions/cache@v2
+        uses: actions/cache@v5
         id: cache-yarn-cache2
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -33,7 +33,7 @@ jobs:
       ## Cache
       - name: Cache node_modules
         id: cache-node-modules2
-        uses: actions/cache@v2
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-${{ matrix.node-version }}-nodemodules2-${{ hashFiles('**/yarn.lock') }}
@@ -43,7 +43,7 @@ jobs:
       ## Cache
       - name: Cache Cypress
         id: cache-cypress2
-        uses: actions/cache@v2
+        uses: actions/cache@v5
         with:
           path: /home/runner/.cache/Cypress
           key: ${{ runner.os }}-${{ matrix.node-version }}-cypress2-${{ hashFiles('**/yarn.lock') }}
