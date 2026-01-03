@@ -20,6 +20,6 @@
     "typescript": "^4.5.4"
   },
   "resolutions": {
-    "resolve": "1.20.0"
+    "resolve": "1.22.11"
   }
 }
