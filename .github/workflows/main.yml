@@ -62,7 +62,7 @@ jobs:
         run: yarn test
 
       - name: Upload artifacts on fail
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v7
         if: failure()
         with:
           name: videos
