@@ -12,7 +12,7 @@
   "devDependencies": {
     "autoprefixer": "^10.3.7",
     "cypress": "^9.2.0",
-    "nuxt3": "3.0.0-27243097.0b634e1",
+    "nuxt3": "3.0.0-rc.9-27703329.537338f",
     "postcss": "^8.3.11",
     "sass": "^1.43.4",
     "start-server-and-test": "^1.14.0",
